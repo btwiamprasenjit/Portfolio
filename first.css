@@ -1,0 +1,446 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: medium;
+  font-style: normal;
+}
+
+.font {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: medium;
+  font-style: normal;
+}
+
+
+.head_font{
+ font-size: 50px;
+ font-weight: bolder;
+ color: #1D81A2;
+ border-bottom: 5px solid #1D81A2;
+}
+
+/* Starting of Navbar */
+
+.nav {
+  
+  background-color: white;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  
+  position: fixed;
+  width: 100%;
+}
+
+.nav_name {
+  
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.nav_name a{
+  text-decoration: none;
+  color: #4169e1;
+}
+
+.nav_ele {
+  background-color: #d6eff7;
+  height: 80%;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  border-radius: 25px;
+
+  border: 1px solid #1D81A2;
+}
+
+.nav_ele ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 50px;
+  margin-top: 50px;
+
+  color: #00796b;
+}
+
+
+.nav_ele ul li:hover {
+  color: purple;
+  cursor: pointer;
+  border-bottom: 5px solid purple;
+  border-radius: 5px;
+}
+
+
+.nav_items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_items ul a{
+  text-decoration: none;
+}
+
+.nav_hire_btn {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  font-weight: normal;
+
+}
+
+.nav_hire_btn a{
+  text-decoration: none;
+  color: white;
+}
+
+/* This is hero */
+
+main {
+  background-color: #f0f8ff;
+}
+
+.hero_main {
+  background-image: url(images/body_back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15vh;
+  
+
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+.hero_main_links a{
+  text-decoration: none;
+}
+
+.hero_logo {
+  background-image: url(images/nav_logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.hero_main_p1 {
+  color: #008080;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 80px;
+}
+
+.hero_main_p2 {
+  color: #4169e1;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.hero_main_p3 {
+  color: #ffa500;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.hero_main_links {
+  margin-top: 30px;
+}
+
+.hero_main_links i {
+  font-size: 30px;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.i_link_marg {
+  margin-left: 20px;
+}
+
+/* Starting of body  */
+
+.body_prt1 {
+  display: flex;
+  flex-direction: column;
+  
+
+  height: 85vh;
+}
+
+.body_prt1 p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #00796bc1;
+  margin-top: 10vh;
+}
+
+.body_prt_cert {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cert1 {
+  background-image: url(images/Python_basic_certificate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.cert2 {
+  background-image: url(images/CSS_basic_certificate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 400px;
+
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/* starting of footer  */
+
+.footer_part1 {
+  background-color: #dfe6e9;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgb(198, 197, 197);
+  
+}
+
+.copy {
+  color: #00796b;
+}
+
+.footer_nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+  color: #00796b;
+}
+
+.footer_nav ul li:hover {
+  color: purple;
+  cursor: pointer;
+  border-bottom: 5px solid purple;
+  border-radius: 5px;
+}
+
+.footer_nav ul a {
+  text-decoration: none;
+}
+
+.footer_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+  margin-left: 150px;
+  background-color: #22a697;
+  cursor: pointer;
+  
+}
+
+.up {
+  font-size: 50px;
+  color: #085e80;
+  
+  
+}
+
+.footer_up a{
+  text-decoration: none;
+}
+
+
+
+
+/* Starting of About page */
+
+
+/* Starting of body main part1  */
+
+
+.about_main_p1{
+  padding-top: 15vh;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(images/contact_body.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.about_main_parah{
+  
+  width: 50vw;
+  font-weight: light;
+  font-size: 20px;
+  
+}
+
+.about_main_parah p{
+  margin-top: 30px;
+}
+
+.about_main_parah_p1{
+  padding-top: 30px;
+  font-size: 25px;
+  color: #1D81A2;
+}
+
+.about_main_parah_p2{
+  font-size: 15px;
+  color: #1D81A2;
+}
+
+.about_main_p1_img{
+  border-radius: 10px;
+  width: 20vw;
+  height: 450px;
+  background-image: url(images/Cropped2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+/* about body part 2  */
+
+.about_main_p2{
+  height: 700px;
+  padding-top: 100px;
+  
+  
+  
+  
+}
+
+
+.about_main_p2 p{
+  
+  
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1D81A2 ;
+  
+  
+}
+
+.about_main_p2_img{
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+
+  
+  
+}
+
+
+.about_main_p2_img1{
+  
+  height: 300px;
+  width: 500px;
+  background-image: url(images/Flipkart_proj_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.about_main_p2_img2{
+  
+  height: 300px;
+  width: 500px;
+  background-image: url(images/Amazon_proj_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0px 8px 4px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.about_main_p2_parah{
+  padding: 0px 300px 0px;
+  color:#1D81A2 ;
+
+}
+
+
+/* starting of about page footer  */
+
+
+.about_footer_p1{
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: 1px solid black;
+}
+
+
+.about_footer_p1 p{
+
+}
+
+.about_footer_p1_nav ul a{
+  text-decoration: none;
+  
+}
+
+
+.about_footer_p1_nav ul li{
+  display: inline;
+  
+  list-style-type: none;
+  margin-left: 20px;
+}
